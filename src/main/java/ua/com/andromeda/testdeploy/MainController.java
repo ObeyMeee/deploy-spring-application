@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @GetMapping
-    public String sayHello() {
-        return "Andrii Heraskin wishes you a great day😊✌️";
+    public String sayGoodNight() {
+        return "I'm going to bed. Good night!✨🌃";
     }
 }
